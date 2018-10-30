@@ -5,7 +5,7 @@
 %option     nounput
 
 COMMENT       "(*"([^\*]|(\*)*[^\*\)])*(\*)*"*)" 
-NCOMMENT      "(*"([^\*]|(\*)*[^\*\)])*(\*)*""
+NCOMMENT      "(*"([^\*]|(\*)*[^\*\)])*(\*)*
 LETTER        [a-zA-Z]
 DIGIT         [0-9]
 INTEGER       {DIGIT}+
